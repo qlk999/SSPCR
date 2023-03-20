@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 Two choices.
 
-- You can download the raw data from [CoNIC](https://conic-challenge.grand-challenge.org/) to **datasets/conic** folder and then run this [script](https://github.com/windygooo/SSPCR/blob/main/datasets/conic/prepare_data.py))) to obtain training/validation/test subsets . 
+- You can download the raw data from [CoNIC](https://conic-challenge.grand-challenge.org/) to **datasets/conic** folder and then run this [script](https://github.com/windygooo/SSPCR/blob/main/datasets/conic/prepare_data.py) to obtain training/validation/test subsets . 
 - A more convenient way is to download the ready-made data subsets from Google Drive (after review).
 
 
@@ -48,7 +48,7 @@ python train_base.py --dataset conic --space 8 --num_classes 6 --match_dis 6 --r
 To test models trained using our framework, run
 
 ```python
-python train_semi.py --dataset conic --space 8 --num_classes 6 --match_dis 6 --ratio 5 -test
+python train_semi.py --dataset conic --space 8 --num_classes 6 --match_dis 6 --ratio 5 --test
 ```
 
 
