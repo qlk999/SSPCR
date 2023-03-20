@@ -1,5 +1,7 @@
 torch
 torchvision
+mmcv
+mmdet
 numpy
 prettytable
 addict
@@ -12,3 +14,4 @@ scikit-image
 terminaltables
 pycocotools
 qudida
+albumentations

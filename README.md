@@ -4,11 +4,10 @@ An official implementation of paper "Semi-Supervised Cell Recognition under Poin
 
 ## Setup
 
+Python 3.7
+
 ```
-- pytorch 1.0+
-- mmcv
-- mmdet
-- scikit-image
+pip install -r requirements.txt 
 ```
 
 
