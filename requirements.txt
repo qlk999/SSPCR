@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+prettytable
+addict
+yapf
+opencv-python
+pyyaml
+scipy
+tqdm
+scikit-image
+terminaltables
+pycocotools
+qudida
