@@ -4,7 +4,7 @@ An official implementation of paper "Semi-Supervised Cell Recognition under Poin
 
 ## Setup
 
-Python 3.7
+Python 3.7, torch 1.8+
 
 ```
 pip install -r requirements.txt 
