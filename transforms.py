@@ -17,8 +17,6 @@ class Preprocessing(object):
     def __call__(self, sample: dict):
         if self.augmentor is not None:
             sample = self.augmentor(**sample)
-            del sample['transform_params']
-            # transform_params = imgs.pop('transform_params')
 
         data = list(sample.values())
         labels = torch.tensor([], dtype=torch.long)
